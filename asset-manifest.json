@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/funfact-app/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/funfact-app/static/js/main.3c28cef7.chunk.js",
+    "main.js.map": "/funfact-app/static/js/main.3c28cef7.chunk.js.map",
+    "runtime-main.js": "/funfact-app/static/js/runtime-main.6f240841.js",
+    "runtime-main.js.map": "/funfact-app/static/js/runtime-main.6f240841.js.map",
+    "static/js/2.18a7faf9.chunk.js": "/funfact-app/static/js/2.18a7faf9.chunk.js",
+    "static/js/2.18a7faf9.chunk.js.map": "/funfact-app/static/js/2.18a7faf9.chunk.js.map",
+    "static/js/3.9376e523.chunk.js": "/funfact-app/static/js/3.9376e523.chunk.js",
+    "static/js/3.9376e523.chunk.js.map": "/funfact-app/static/js/3.9376e523.chunk.js.map",
+    "index.html": "/funfact-app/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/funfact-app/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.18a7faf9.chunk.js.LICENSE.txt": "/funfact-app/static/js/2.18a7faf9.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/funfact-app/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f240841.js",
+    "static/js/2.18a7faf9.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.3c28cef7.chunk.js"
+  ]
+}
