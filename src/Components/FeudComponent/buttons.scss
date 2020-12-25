@@ -1,0 +1,41 @@
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.right-button,
+.wrong-button {
+  border: none;
+  background-color: transparent;
+  margin: 1em;
+  font-size: 30px;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.2);
+  }
+  &:active,
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}
+
+.checkmark,
+.xmark {
+  display: none;
+}
+
+.forrige,
+.neste {
+  background-color: orange;
+  border-radius: 3px;
+  width: 5em;
+  height: 3em;
+  margin-top: 1em;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  }
+}

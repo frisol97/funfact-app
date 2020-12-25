@@ -1,0 +1,11 @@
+.teams {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  &-wrapper {
+    background-color: rgb(239, 242, 250);
+    padding: 1em 3em;
+    border-radius: 10px;
+  }
+}

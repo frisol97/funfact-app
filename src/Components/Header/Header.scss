@@ -1,0 +1,89 @@
+@import "~@fremtind/jkl-core/variables/all";
+@import "~@fremtind/jkl-core/mixins/all";
+
+$underline-spacing: rem(60px);
+$underline-animation: width 300ms ease-in;
+$bm-max-width: 1512px;
+$shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.16);
+
+.header {
+  height: 4rem;
+  position: sticky;
+  top: 0;
+  z-index: $z-index--header;
+  background-color: $hvit;
+  width: 100%;
+  box-shadow: $shadow;
+  padding: $layout-spacing--medium 0 0;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: $bm-max-width;
+  }
+}
+
+.navbar__item {
+  box-sizing: border-box;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: $svart;
+  padding-bottom: $component-spacing--small;
+  margin-right: $layout-spacing--small;
+  margin-left: $component-spacing--large;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 4px;
+    background-color: transparent;
+    position: absolute;
+    top: $underline-spacing;
+    @include motion("standard");
+    transform: translate(0);
+    transition-duration: 300ms;
+  }
+
+  &:hover {
+    color: $info;
+
+    &::after {
+      background-color: $info;
+      width: 100%;
+      transition: $underline-animation;
+      -webkit-transition: $underline-animation;
+      -moz-transition: $underline-animation;
+      -o-transition: $underline-animation;
+      transition: $underline-animation;
+    }
+  }
+
+  &--current {
+    .navbar__item__title {
+      font-weight: bold !important;
+    }
+
+    &::after {
+      background-color: $svart;
+      width: 100%;
+    }
+
+    &:hover {
+      color: $svart;
+
+      &::after {
+        background-color: $svart;
+      }
+    }
+  }
+
+  &__title {
+    font-family: "Open Sans", sans-serif;
+  }
+}
