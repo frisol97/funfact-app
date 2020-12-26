@@ -1,11 +1,16 @@
 @import "~@fremtind/jkl-core/variables/all";
 @import "~@fremtind/jkl-core/mixins/all";
-@import "~@fremtind/jkl-core/core.min.css";
 
-.App {
+.funfact {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
-  width: 100%;
+  padding: 3em;
+
   h1 {
     @include jkl-text-style("desktop/body");
+  }
+  a {
+    max-width: fit-content;
   }
 }

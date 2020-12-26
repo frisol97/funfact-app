@@ -87,3 +87,30 @@ $shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.16);
     font-family: "Open Sans", sans-serif;
   }
 }
+
+@include small-device {
+  .header {
+    height: 10rem;
+    @include jkl-text-style("compact/micro");
+    &__wrapper {
+      flex-direction: column;
+    }
+  }
+
+  .navbar__item {
+    &:hover {
+      &__title {
+        transform: right(3px);
+      }
+      &::after {
+        background-color: transparent;
+      }
+    }
+
+    &--current {
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
