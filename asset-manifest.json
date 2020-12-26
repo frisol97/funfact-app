@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/funfact-app/static/css/main.4dad039d.chunk.css",
-    "main.js": "/funfact-app/static/js/main.5f99d42e.chunk.js",
-    "main.js.map": "/funfact-app/static/js/main.5f99d42e.chunk.js.map",
-    "runtime-main.js": "/funfact-app/static/js/runtime-main.65a9d553.js",
-    "runtime-main.js.map": "/funfact-app/static/js/runtime-main.65a9d553.js.map",
-    "static/js/2.951ec46f.chunk.js": "/funfact-app/static/js/2.951ec46f.chunk.js",
-    "static/js/2.951ec46f.chunk.js.map": "/funfact-app/static/js/2.951ec46f.chunk.js.map",
-    "static/js/3.f4c1a777.chunk.js": "/funfact-app/static/js/3.f4c1a777.chunk.js",
-    "static/js/3.f4c1a777.chunk.js.map": "/funfact-app/static/js/3.f4c1a777.chunk.js.map",
+    "main.css": "/funfact-app/static/css/main.3a179c56.chunk.css",
+    "main.js": "/funfact-app/static/js/main.993f3fa0.chunk.js",
+    "main.js.map": "/funfact-app/static/js/main.993f3fa0.chunk.js.map",
+    "runtime-main.js": "/funfact-app/static/js/runtime-main.ad18bee1.js",
+    "runtime-main.js.map": "/funfact-app/static/js/runtime-main.ad18bee1.js.map",
+    "static/css/2.a9d9e95d.chunk.css": "/funfact-app/static/css/2.a9d9e95d.chunk.css",
+    "static/js/2.dd185d38.chunk.js": "/funfact-app/static/js/2.dd185d38.chunk.js",
+    "static/js/2.dd185d38.chunk.js.map": "/funfact-app/static/js/2.dd185d38.chunk.js.map",
+    "static/js/3.4aa04f31.chunk.js": "/funfact-app/static/js/3.4aa04f31.chunk.js",
+    "static/js/3.4aa04f31.chunk.js.map": "/funfact-app/static/js/3.4aa04f31.chunk.js.map",
     "index.html": "/funfact-app/index.html",
-    "static/css/main.4dad039d.chunk.css.map": "/funfact-app/static/css/main.4dad039d.chunk.css.map",
-    "static/js/2.951ec46f.chunk.js.LICENSE.txt": "/funfact-app/static/js/2.951ec46f.chunk.js.LICENSE.txt"
+    "static/css/2.a9d9e95d.chunk.css.map": "/funfact-app/static/css/2.a9d9e95d.chunk.css.map",
+    "static/css/main.3a179c56.chunk.css.map": "/funfact-app/static/css/main.3a179c56.chunk.css.map",
+    "static/js/2.dd185d38.chunk.js.LICENSE.txt": "/funfact-app/static/js/2.dd185d38.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.65a9d553.js",
-    "static/js/2.951ec46f.chunk.js",
-    "static/css/main.4dad039d.chunk.css",
-    "static/js/main.5f99d42e.chunk.js"
+    "static/js/runtime-main.ad18bee1.js",
+    "static/css/2.a9d9e95d.chunk.css",
+    "static/js/2.dd185d38.chunk.js",
+    "static/css/main.3a179c56.chunk.css",
+    "static/js/main.993f3fa0.chunk.js"
   ]
 }
